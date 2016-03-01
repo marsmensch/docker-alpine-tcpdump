@@ -1,6 +1,8 @@
 FROM alpine:3.3
 MAINTAINER Florian Maier <contact@marsmenschen.com>
-ENV TCPDUMP_VERSION 4.7.4-r0 # latest in alpine
+
+ENV REFRESHED_AT 2016-03-01
+ENV TCPDUMP_VERSION 4.7.4-r0
 
 RUN apk add --update \
       tcpdump==${TCPDUMP_VERSION} \
@@ -9,3 +11,4 @@ RUN apk add --update \
 VOLUME ["/data"]
 
 ENTRYPOINT ["/usr/sbin/tcpdump"]
+CMD ["--help"]

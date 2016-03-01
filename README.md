@@ -10,7 +10,7 @@ There's a data volume available at `/data/` if you need one.
 
 #### View help and version
 
-    $ docker run --rm marsmensch/tcpdump --help
+    $ docker run --rm marsmensch/tcpdump
 
 #### Examine the host network
 
@@ -18,7 +18,7 @@ There's a data volume available at `/data/` if you need one.
 
 #### Examine the TCP traffic on the host network with Wireshark with filters or interface
 
-    $ docker run --rm --net=host marsmensch/tcpdump -i eth2 port 80   
+    $ docker run --rm --net=host marsmensch/tcpdump -i eth2 port 8080   
 
 #### Examine the TCP traffic on the host network with Wireshark
 
