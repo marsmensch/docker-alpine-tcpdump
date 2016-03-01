@@ -36,5 +36,6 @@ Heavily influnced by [corfr/tcpdump] and [crccheck/docker-tcpdump], which both d
 to use TCPDump with Docker.
 
   [TCPDump]: http://www.tcpdump.org/
+  [marsmensch/tcpdump]: https://hub.docker.com/r/marsmensch/tcpdump/
   [corfr/tcpdump]: https://registry.hub.docker.com/u/corfr/tcpdump/
-  [crccheck/docker-tcpdump]: https://registry.hub.docker.com/u/corfr/tcpdump/
+  [crccheck/docker-tcpdump]: https://hub.docker.com/r/crccheck/tcpdump/
