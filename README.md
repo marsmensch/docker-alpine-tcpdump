@@ -1,7 +1,7 @@
 docker-alpine-tcpdump
 =======
 
-A  #docker image with tcpdump using Alpine. [marsmensch/tcpdump]
+A  #docker image with tcpdump using Alpine. https://hub.docker.com/r/marsmensch/tcpdump/
 
 Usage
 -----
@@ -35,7 +35,7 @@ Prior Art
 Heavily influnced by [corfr/tcpdump] and [crccheck/docker-tcpdump], which both did a great job of documenting how
 to use TCPDump with Docker.
 
-  [TCPDump]: http://www.tcpdump.org/
-  [marsmensch/tcpdump]: https://hub.docker.com/r/marsmensch/tcpdump/
-  [corfr/tcpdump]: https://registry.hub.docker.com/u/corfr/tcpdump/
-  [crccheck/docker-tcpdump]: https://hub.docker.com/r/crccheck/tcpdump/
+[TCPDump]: http://www.tcpdump.org/
+[marsmensch/tcpdump]: https://hub.docker.com/r/marsmensch/tcpdump/
+[corfr/tcpdump]: https://registry.hub.docker.com/u/corfr/tcpdump/
+[crccheck/docker-tcpdump]: https://hub.docker.com/r/crccheck/tcpdump/
